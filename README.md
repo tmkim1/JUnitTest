@@ -8,7 +8,18 @@
 - 간결한 어노테이션 지원 
 - 성공, 실패 결과 표시 
 
+<code>
+@Test
+public void Calc() {
+  Calculator calculator = new Calculator();
+  assertEquals(30, calculator.sum(10,20));
+}
+</code>
 
+
+
+
+----
 
 참조: nextree.co.kr/p11104/
   

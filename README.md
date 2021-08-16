@@ -10,11 +10,13 @@
 
 </h3> 예시 </h3>
 
-  @Test
-  public void Calc() {
-    Calculator calculator = new Calculator();
-    assertEquals(30, calculator.sum(10,20));
-  }
+``` JAVA
+@Test
+public void Calc() {
+  Calculator calculator = new Calculator();
+  assertEquals(30, calculator.sum(10,20));
+}
+```
 
 @Test: 해당 어노테이션이 선언된 메서드가 단위 테스트 메서드임을 지정
 assertEquals: 기댓값과 결과값이 일치하는지 확인 

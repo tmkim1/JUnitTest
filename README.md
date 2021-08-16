@@ -8,7 +8,7 @@
 - 간결한 어노테이션 지원 
 - 성공, 실패 결과 표시 
 
-</h3> 예시 </h3>
+</h3> <예시> </h3>
 
 ``` JAVA
 @Test
@@ -18,16 +18,16 @@ public void Calc() {
 }
 ```
 
-@Test: 해당 어노테이션이 선언된 메서드가 단위 테스트 메서드임을 지정
-assertEquals: 기댓값과 결과값이 일치하는지 확인 
+- @Test: 해당 어노테이션이 선언된 메서드가 단위 테스트 메서드임을 지정
+- assertEquals: 기댓값과 결과값이 일치하는지 확인 
 
 <h3> 대표적인 단정문 </h3>
 
-assertArrayEuals(a, b): 배열 a와 b가 일치함을 확인
-assertEquals(a, b): 객체 a와 b의 값이 같은지 확인
-assertSame(a, b): 객체 a와 b와 같은 객체임을 확인 
-assertTue(a): a가 참인지 확인
-assertNotNull(a): a객체가 null이 아님을 확인 
+- assertArrayEuals(a, b): 배열 a와 b가 일치함을 확인
+- assertEquals(a, b): 객체 a와 b의 값이 같은지 확인
+- assertSame(a, b): 객체 a와 b와 같은 객체임을 확인 
+- assertTue(a): a가 참인지 확인
+- assertNotNull(a): a객체가 null이 아님을 확인 
 
 <h3> 기본 Annotation </h3>
 

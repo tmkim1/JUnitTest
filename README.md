@@ -39,7 +39,7 @@ public void Calc() {
 
 @BeforeEach
 
-- 해당 annotation이 달인 메서드가 각 테스트 메서드 전에 실행 됨을 의미
+- 해당 annotation이 달린 메서드가 각 테스트 메서드 전에 실행 됨을 의미
 - JUnit5 이전 @Before과 동일 
 
 @AfeterAll

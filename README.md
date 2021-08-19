@@ -19,6 +19,7 @@ public void Calc() {
 ```
 
 - @Test: 해당 어노테이션이 선언된 메서드가 <b>단위 테스트</b> 메서드임을 지정
+- @SpringBootTest: 스프링 컨테이너와 테스트를 함께 실행
 - assertEquals: 기댓값과 결과값이 일치하는지 확인 
 
 <h3> 대표적인 단정문 </h3>
@@ -98,12 +99,16 @@ Then
 
 ----
 
-참조: nextree.co.kr/p11104/
+참조
 
-     http://junit.sourceforge.net/javadoc/org/junit/Assert.html (assert 단정문 문서)
+     1. nextree.co.kr/p11104/
+
+     2. http://junit.sourceforge.net/javadoc/org/junit/Assert.html (assert 단정문 문서)
      
-     https://gmlwjd9405.github.io/2019/11/26/junit5-guide-basic.html
+     3. https://gmlwjd9405.github.io/2019/11/26/junit5-guide-basic.html
      
-     https://twofootdog.github.io/Spring-Spring-MVC%EC%97%90%EC%84%9C-JUnit-%ED%99%9C%EC%9A%A9%ED%95%98%EA%B8%B02(MockMvc%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-Controller-%ED%85%8C%EC%8A%A4%ED%8A%B8)/
+     4. https://twofootdog.github.io/Spring-Spring-MVC%EC%97%90%EC%84%9C-JUnit-%ED%99%9C%EC%9A%A9%ED%95%98%EA%B8%B02(MockMvc%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-Controller-%ED%85%8C%EC%8A%A4%ED%8A%B8)/
+     
+     5. 인프런 강의: 스프링 부트와 JPA 활용 (김영한)
   
 
